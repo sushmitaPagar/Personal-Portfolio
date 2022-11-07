@@ -1,0 +1,109 @@
+{
+    "skills" : [
+        {
+            "name": "React JS"
+        },
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "Material UI"
+        },
+        {
+            "name": "Bootstrap"
+        },
+        {
+            "name": "DOM Manipulation"
+        },
+        {
+            "name": "REST APIs"
+        },
+        {
+            "name": "Git"
+        }
+    ],
+    "projects": [
+        {
+            "title": "XFlix Frontend",
+            "duration": "10/2022",
+            "link": "https://xflixfrontend-sushmitapagar.netlify.app/",
+            "description": ["Technologies used: HTML, CSS, JS, React JS, Material UI."],
+            "image": "../images/XFlixFrontend.png"
+        },
+        {
+            "title": "QKart Frontend",
+            "duration": "06/2022",
+            "link": "https://qkart-frontend-sp.netlify.app",
+            "description": ["Technologies used: HTML, CSS, JS, React JS, React Hooks."],
+            "image": "../images/QKartFrontend.png"
+        },
+        {
+            "title": "QTrip Dynamic",
+            "duration": "04/2022",
+            "link": "https://qtrip-dynamic-by-sushmita.netlify.app",
+            "description": ["Technologies used: HTML, CSS, JavaScript, Bootstrap, REST, web Api."],
+            "image": "../images/qTripDynamic.jpg"
+        },
+        {
+            "title": "Buildout- XBoard",
+            "duration": "05/2022",
+            "link": "https://xboard-by-sushmita.netlify.app",
+            "description": ["Technologies used: HTML, CSS, JavaScript, Bootstrap, Functional programming, web Api."],
+            "image": "../images/xBoard.jpg"
+        },
+        {
+            "title": "JIGSAW+: Joint search with ImaGe, Speech, And Word Plus",
+            "duration": "06/2014 - 05/2015",
+            "link": null,
+            "description": ["This system describes a novel multimodal interactive image search on mobile devices.", "It is designed for users who already have pictures in their minds but have no precise descriptions or names to address them. By describing it using speech and by query image, the user can easily find the desired images through a few natural multimodal interactions with his/her mobile device.", "The performance of the system is tested in terms of precision and recall, and it is observed that better precision and recall is obtained. Also the CBIR results for Image-to-image search module are better."],
+            "image": null
+        },
+        {
+            "title": "Automatic License Plate Recognition System",
+            "duration": "06/2012 - 05/2013",
+            "link": null,
+            "description": ["This work deals with problematic from field of artificial intelligence, machine vision and neural networks in construction of an automatic license number plate recognition system (ALNPR).", "This problematic includes mathematical principles and algorithms, which ensure a process of number plate detection, processes of proper characters segmentation, normalization and recognition.", "Work also contains an implementation of a demonstration model, which is able to proceed these functions over a set of snapshots."],
+            "image": null
+        }
+    ],
+    "education": [
+        {
+            "title": "Crio Fellowship in Software Development (Full Stack Development)",
+            "institute": "Crio.Do",
+            "duration": "03/2022 - Present",
+            "score": null,
+            "courses": ["React Development: Class and Function Components, Lifecycle methods, React Hooks, MaterialUI, Conditional Rendering, React Routing", "JavaScript Development: JS Syntax, Arrays, Objects, Strings, ES6, Scope and Closure", "FrontEnd Development: HTML, CSS, Bootstrap, DOM manipulation, REST APIs, OOP, Functional Programming", "DSA Programming: Array problems, Two Pointers pattern, Matrix, Sliding Window, Prefix Sum, Bit Manipulation, Sorting, BST, etc."],
+            "projects": ["XFlix Frontend", "QKart Frontend", "QTrip Dynamic", "Buildout- XBoard", "QTrip Static"]
+        },
+        {
+            "title": "M.E. (Computer)",
+            "institute": "Sanjivani College of Engineering, University of Pune.",
+            "duration": "06/2013 - 05/2015",
+            "score": "7.78 (First Class with Distinction)",
+            "courses": [],
+            "projects": ["JIGSAW+: Joint search with ImaGe, Speech, And Word Plus."]
+        },
+        {
+            "title": "B.E. (Computer)",
+            "institute": "Sanjivani College of Engineering, University of Pune.",
+            "duration": "06/2009 - 05/2013",
+            "score": "64.53% (First Class)",
+            "courses": [],
+            "projects": ["Automatic License Plate Recognition System."]
+        },
+        {
+            "title": "H.S.C. (Science)",
+            "institute": "SSGM Science College (Maharashtra State Board)",
+            "duration": "06/2007 - 05/2009",
+            "score": "76.83% (First Class with Distinction)",
+            "courses": [],
+            "projects": []
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #fff6f6;
+    opacity : 0;
+    transition : opacity 1s ease;
+}
+
+.loaded {
+    opacity : 1;
+ }
+
+.name {
+    padding-left: 1rem;
+    text-shadow: 1px 1px 2px rgb(68, 65, 65);
+}
+
+.triangleShape {
+    position: relative;
+    height: 0;
+    width: 0;
+    z-index: -1;
+    border-top: 0px solid transparent;
+    border-left: 97vw solid rgb(241,180,207);
+    border-bottom: 40vh solid transparent;
+}
+
+.portfolioImage {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 3rem;
+    left: -60vw;
+}
+
+.portfolioImage img {
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 4px 4px 9px 1px #717577;
+}
+
+#objective {
+    padding-left: 25vw;
+    padding-top: 4rem;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+.headingBackground {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+	transform: skew(-45deg);
+    border-radius: 1rem;
+	background: linear-gradient(to right bottom, #e8ebf1, #efa5f1);
+    position: relative;
+    box-shadow: 4px 4px 7px 1px #717577;
+}
+
+.heading {
+    font-weight: 400;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    display: inline-block;
+    transform: skew(45deg);
+    position: relative;
+    top: 2px;
+    left: 2px;
+    z-index: 1;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.pills {
+    /* background-color: linear-gradient(to right, #cdd9f1, #f2b8f3); */
+    background-color: #f3e6f3;
+    border-radius: 1rem;
+    padding: 5px 20px;
+    margin: 10px 10px 10px 0px;
+    display: inline-block;
+    box-shadow: 4px 4px 5px 0px #717577;
+}
+
+.carouselCards {
+    height: auto;
+    width: 70vw;
+    border: none;
+    background-color: #f3f0f0;
+}
+
+.carouselCards img {
+    height: 100%;
+    width: 100%;
+  }
+
+.cards {
+    height: 100%;
+    width: 100%;
+    background-color: #f3e6f3;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 5px 1px #717577;
+}
+
+.cards:hover {
+    background: linear-gradient(to right bottom, #f2c6f3, #e8ebf1);
+}
+
+.links {
+    color: black;
+}
+
+#pageFooter {
+    background: rgb(252, 227, 238);
+}
+
+.fa-solid:hover {
+    transform: scale(1.2);
+}
+
+.fa-brands:hover {
+    transform: scale(1.2);
+}
+
+/* Tooltip container */
+.tooltip {
+    display: inline;
+    /* position: relative; */
+}
+  
+/* Tooltip text */
+.tooltipText {
+    visibility: hidden;
+    width: 120px;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    background-color: rgb(128, 127, 127);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: relative;
+    /* bottom: 100%;
+    left: 50%; */
+    z-index: 1;
+}
+  
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltipText {
+    visibility: visible;
+}
